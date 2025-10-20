@@ -1,10 +1,26 @@
 # ML-Churn-Rate (WIP)
 I am stepping into the shoes of a data scientist working for a subscription-based company. My goal is to build a predictive model that identifies customers who are likely to churn so our business can intervene early with personalzied offers/improved services. 
 
-# Business Objective
+# Project Overview 
 - My goal is to reduce churn by identifying at-risk customers. I will be building a machine learning model to predict customer churn with >85% recall while making sure to maintain balanced precision, and target proactive customer retention strategies. 
-KPIs: Churn Rate Reduction Percentage, Recall, Precision
+- KPIs: Churn Rate Reduction Percentage, Recall, Precision
+- Tools Used: Tableau (Exploratory Data Analysis), Python/Jupyter Notebook (Feautre Engineering & Modeling)
+- Dataset: Customer Churn dataset based on telephone service provider statistics. Dataset contains 21 features and 7043 records. 
 
+# Data Description
+Telco Customer Churn - https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download
+
+Key Attributes
+- customerID
+- gender
+- SeniorCitizen (Boolean)
+- Partner
+- tenure
+- Contract
+- PaymentMethod
+- MonthlyCharges
+- TotalCharges
+- Churn
 
 # Procedure
 1. Problem Framing
