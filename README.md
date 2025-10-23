@@ -35,16 +35,9 @@ ML-Churn-Rate/
 │   ├── raw/  
 │   ├── processed/
 │-- notebooks/
-│   ├── 1_business_objective.ipynb
-│   ├── 2_eda.ipynb
-│   ├── 3_feature_engineering_modelling.ipynb
-│   ├── 4_model_evaluation_and_recommendations.ipynb
 │-- scripts/
-│   ├── preprocess.py
-│   ├── train_model.py
 │-- README.md
 │-- requirements.txt
 │-- results/
-│   ├── figures/
-│   ├── model_performance.csv
+│   ├── visuals/
 ```
