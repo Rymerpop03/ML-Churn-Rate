@@ -1,4 +1,3 @@
-# Confusion matrix and feature importance script
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -22,7 +21,7 @@ def plot_model_analysis(model_path, test_data_path, output_name):
     # Create visualizations
     plt.figure(figsize=(15, 6))
     
-    # Plot 1: Confusion Matrix
+    # Plot Confusion Matrix
     plt.subplot(1, 2, 1)
     cm = confusion_matrix(y_test, y_pred)
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
@@ -32,7 +31,7 @@ def plot_model_analysis(model_path, test_data_path, output_name):
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
     
-    # Plot 2: Feature Importance
+    # Plot Feature Importance
     plt.subplot(1, 2, 2)
     
     # Identify numeric and categorical columns
@@ -87,9 +86,7 @@ def plot_model_analysis(model_path, test_data_path, output_name):
     
     return feature_importance, cm
 
-# Example usage:
 if __name__ == "__main__":
-    # Paths
     models_to_evaluate = {
         'logistic_regression': 'logistic_regression_model.pkl',
         'random_forest': 'random_forest_model.pkl',
