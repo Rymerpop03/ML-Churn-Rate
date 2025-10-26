@@ -35,11 +35,11 @@ ML-Churn-Rate/
 │   ├── processed/  
 │   ├── raw/
 │-- notebooks/
-│-- scripts/
-│-- README.md
-│-- requirements.txt
-│-- ExecutiveSummary.pdf
 │-- results/
 │   ├── models/
 │   ├── visuals/
+│-- scripts/
+│-- ExecutiveSummary.pdf
+│-- README.md
+│-- requirements.txt
 ```
