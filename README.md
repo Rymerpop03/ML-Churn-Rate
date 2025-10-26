@@ -1,4 +1,4 @@
-# ML-Churn-Rate (WIP)
+# ML-Churn-Rate
 I am stepping into the shoes of a data scientist working for a subscription-based company. I am tasked with building a predictive model that identifies customers who are likely to churn so our business can intervene early with personalzied offers/improved services. 
 
 # Project Overview 
