@@ -1,5 +1,5 @@
 # ML-Churn-Rate
-I am stepping into the shoes of a data scientist working for a subscription-based company. I am tasked with building a predictive model that identifies customers who are likely to churn so our business can intervene early with personalzied offers/improved services. 
+I am stepping into the shoes of a data scientist working for a subscription-based telephone services company. I am tasked with building a predictive model that identifies customers who are likely to churn so our business can intervene early with personalzied offers/improved services. 
 
 # Project Overview 
 - My goal is to reduce churn by identifying at-risk customers. I will be building a machine learning model to predict customer churn with >85% recall while making sure to maintain balanced precision, and target proactive customer retention strategies. 
