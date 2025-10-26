@@ -38,6 +38,7 @@ ML-Churn-Rate/
 │-- scripts/
 │-- README.md
 │-- requirements.txt
+│-- ExecutiveSummary.pdf
 │-- results/
 │   ├── models/
 │   ├── visuals/
