@@ -32,12 +32,13 @@ Key Attributes
 ```
 ML-Churn-Rate/
 │-- data/
-│   ├── raw/  
-│   ├── processed/
+│   ├── processed/  
+│   ├── raw/
 │-- notebooks/
 │-- scripts/
 │-- README.md
 │-- requirements.txt
 │-- results/
+│   ├── models/
 │   ├── visuals/
 ```
